@@ -1,0 +1,169 @@
+/*Font*/
+@import url('https://fonts.googleapis.com/css2?family=WindSong:wght@400;500&display=swap');
+
+.windsong-regular {
+    font-family: "WindSong", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*Body*/
+body {
+    background-color: #d6c89a;
+    overflow-x: hidden;
+
+}
+/*Header*/
+
+.logoDisplay {
+    max-width: 700px;
+    align-content: center;
+    margin-left: 10px;
+}
+
+.searchbar {
+    width: 400px; 
+    height: 30px; 
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.buttonImage { 
+    height: 20px;
+    width: 20px;
+    padding-top: 2px;
+    border-radius: 3px;
+    background-color: #d6c89a;
+    margin-left: 10px;
+}
+
+.symbolImage { 
+    height: 30px;
+    width: 30px;
+    padding-top: 2px;
+    margin-left: 30px;
+}
+
+.symbolDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 300px;
+    margin-left: 300px;
+}
+
+
+
+/* Image display of products*/
+.image {
+    width: 450px;
+    height: 450px;
+    border-radius: 10%; 
+    box-shadow: 8px 8px #a0946b;
+}
+
+.imageDisplay { 
+    scale: 1.05;
+    width: 100vw;
+}
+
+
+/* Containers*/
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-height: 150px;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.container3 {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    justify-content: center;
+}
+/*Welcome Paragraph*/
+.welcome {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: rgb(87, 92, 92);
+}
+
+#welcomeText {
+    font-size: 50px;
+}
+
+.flowerDiv {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center; 
+}
+
+
+/*Product images and descriptions*/
+.imagePos {
+    height: 600px;
+    max-width: 450px;
+    text-align: center;
+    color: rgb(87, 92, 92); 
+}
+
+.descriptionTop {
+    font-size: 40px;
+}
+
+.descriptionMid {
+    font-size: 30px;
+    font-style: italic;
+    
+}
+
+.descriptionPrice {
+    font-size: 30px;
+}
+
+
+/*Social*/
+.socialMedia {
+    scale: 0.5;
+    align-items: center;
+    margin-bottom: 40px;
+    height: 90px;
+}
+
+.followText {
+    text-align: center;
+    justify-content: center;
+    font-size: 50px; 
+    font-family: 'WindSong', cursive;
+}
+
+.contactUs {
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+}
+
+#contactUsText {
+    font-family: "WindSong", cursive;
+    font-size: 50px;
+}
+
+#coms {
+    color: rgb(87, 92, 92);
+}
